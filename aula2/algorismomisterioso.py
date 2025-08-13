@@ -1,8 +1,8 @@
-a = int(input("digite um valor para a:"))
-b = int(input("digite um valor de b:"))
+a = int(input("digite um número inteiro para a:"))
+b = int(input("digite um número inteiro para b:"))
 while a != b:
     if a > b:
         a = a - b
     else:
         b = b - a
-        print(a)
+        print("o resultado é:",a,b)
