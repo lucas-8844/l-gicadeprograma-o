@@ -1,5 +1,5 @@
 horas_trabalhadas = int(input("quantas horas semanais foram trabalhadas ?"))
-valor_hora = int(input("qual o valor de cada hora trabalhada ?"))
+valor_hora = float(input("qual o valor de cada hora trabalhada ?"))
 
 
 if horas_trabalhadas > 44:
@@ -9,6 +9,6 @@ if horas_trabalhadas > 44:
     print("horas extras trabalhadas:", hora_extra)
     print("Valor de cada hora extra: R$",valor_extra)
     print(hora_extra, "horas extras a R$", valor_extra, "cada.")
-else: 
-    print("não teve horas extras")
+else:
+    print("Não teve hora extra")
     
