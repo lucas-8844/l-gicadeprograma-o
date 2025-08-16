@@ -8,7 +8,7 @@ if horas_trabalhadas > 44:
     valor_extra = valor_hora + hora_extra
     print("horas extras trabalhadas:", hora_extra)
     print("Valor de cada hora extra: R$",valor_extra)
-    print(hora_extra, "horas extras a R$", valor_extra, "cada.")
+    print(f"{hora_extra} horas extras a R$ {valor_extra} cada.")
 else:
     print("Não teve hora extra")
     
