@@ -1,0 +1,13 @@
+clientes = []
+cliente = {}
+print('Adicione um cliente:')
+for i in range(3):
+    cliente['nome'] = input('Digite seu nome completo: ')
+    cliente['email'] = input('Dgite seu email: ')
+    cliente['Telefone'] = int(input('Digite seu Telefone: '))
+    cliente['profissao'] = input('Digite sua profissão: ')
+    clientes.append(cliente)
+    print('Novo cliente')
+for i in clientes:
+
+ print(i)
