@@ -8,5 +8,8 @@ clientes.pop(0)
 print(clientes)
 clientes[2] = "novo"
 print(clientes)
+indice = clientes.index("novo")
+clientes = [indice]
+print(clientes)
 for i in clientes:
     print(i)
