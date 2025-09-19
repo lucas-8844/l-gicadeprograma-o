@@ -1,9 +1,11 @@
-nomes = ["Gabriel","juliano","Ana","marcos"]
-print("O numero de nomes que começão com a letra A são:")
-for i in nomes:
-    i = i.count("A")
-    print(nomes[0])
-    print(nomes.count("A"))
+nomes = ["Gabriel", "juliano", "Ana", "marcos"]
+
+quantidade = 0
+for nome in nomes:
+    if nome.lower().startswith("a"):  # transforma tudo em minúsculo e verifica se começa com "a"
+        quantidade += 1
+
+print(f"O número de nomes que começam com a letra A é: {quantidade}")
 
 
 
