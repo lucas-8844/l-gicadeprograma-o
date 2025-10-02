@@ -18,18 +18,16 @@ def descobridor_de_senha(senha):
            senha_gerada += str(random.randint(0,9))
         contador += 1
         print(senha_gerada)
-        print(senha)
         if senha_gerada == senha:
           print(f"foi descoberto em {contador} tentativas")
-          print(f"acertou a senha é{senha_gerada}")
-        break
-    print(contador)
+          print(f"acertou a senha é {senha_gerada}")
+          break
 
-print(descobridor_de_senha("1234"))
-
+print(descobridor_de_senha("1434"))
 
 
-#def descibridor_senha(senha):
+
+# def descibridor_senha(senha):
  #senha_gerada = ""
  #contador = 0
  #while senha_gerada != senha:
