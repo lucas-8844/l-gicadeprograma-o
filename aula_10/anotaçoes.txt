@@ -1,0 +1,23 @@
+#import os
+#print(os.system("clear"))
+#print(os.system("shutdown now"))
+#print(os.system("dir"))
+#print(os.system("mkdir"))
+#print(os.system("pwd"))
+#print(os.system("tree"))
+#print(os.system("touch teste.txt"))
+#print(os.system("rm teste.txt"))
+=======================================================
+Criação de ambiente virtual
+
+python3 -m venv .venv
+
+Ativação no linux
+
+source .venv/bin/activate
+
+no Windows
+
+.venv\Scripts\activate
+
+https://dontpad.com/palestrapythoncomia

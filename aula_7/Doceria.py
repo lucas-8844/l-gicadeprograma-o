@@ -6,7 +6,6 @@ while True:
     print("="*30)
     print("Deseja fazer um cadastro de um cliente ?")
     opcao = input("Digite sim ou não:")
-    dicionario = {}
     if opcao == "sim":
         dicionario = {}
         dicionario['nome'] = input("Digite seu nome:")
