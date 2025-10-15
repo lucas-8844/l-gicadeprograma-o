@@ -1,0 +1,40 @@
+-listas
+estrutura indexada
+
+lista = ["gabriel", "joao", "alice"]
+
+print(lista.index("gabriel"))#encontra o indice.
+
+lista.sort(reverse=true) #ordena a lista e reverte a lista, ordena.
+
+print("gabriel" in lista) #olha se existe dentro da lista.
+
+-Tupla 
+tupla é imutável.
+
+dados = "ga","ga" #não necessita de parenteses, ja identifica como tupla
+print(type(dados))
+
+for dado in dados:
+print(dado)
+
+-Dicioários. # Atribui chaves para valores, para identificar o significado de cada valor.
+
+cliente = {
+    "nome":'gabriel'
+}
+
+print(cliente[])
+
+for chave in cliente:
+    print(f"{chave} - {cliente[chave]}")
+
+for c,v in cliente:
+ print(f"{c},{v}")
+
+-sets
+
+listas = {"gabriel","joao","felipe"}
+for i in listas:
+print(listas)
+
