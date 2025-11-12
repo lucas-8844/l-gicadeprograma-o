@@ -9,7 +9,7 @@ class Carro:
         return f"O carro {self.modelo} freiou para {self.velocidade} km/h"
     def acelerar(self):
         self.velocidade += 8
-        return f"O carro {self.modelo} freiou para {self.velocidade} km/h"
+        return f"O carro {self.modelo} acelerou para {self.velocidade} km/h"
 
 carro1= Carro(
     cor = input("digite a cor do carro:"),
