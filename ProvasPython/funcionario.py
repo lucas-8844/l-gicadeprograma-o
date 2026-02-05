@@ -10,6 +10,7 @@ class Funcionario:
 
 class Gerente(Funcionario):
     def calcular_salario(self):
+        func = Funcionario(nome = "maria", salario = 0)
         return self.salario
 
 
